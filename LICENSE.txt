@@ -1,0 +1,147 @@
+Creative Commons Attribution-NonCommercial 4.0 International
+
+Copyright (c) 2026 Memories Creator Team
+
+This work is licensed under the Creative Commons Attribution-NonCommercial 
+4.0 International License.
+
+To view a copy of this license, visit:
+https://creativecommons.org/licenses/by-nc/4.0/
+
+or send a letter to:
+Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+
+================================================================================
+
+You are free to:
+
+    Share — copy and redistribute the material in any medium or format
+    Adapt — remix, transform, and build upon the material
+
+    The licensor cannot revoke these freedoms as long as you follow the 
+    license terms.
+
+Under the following terms:
+
+    Attribution — You must give appropriate credit, provide a link to the 
+    license, and indicate if changes were made. You may do so in any 
+    reasonable manner, but not in any way that suggests the licensor 
+    endorses you or your use.
+
+    NonCommercial — You may not use the material for commercial purposes.
+
+    No additional restrictions — You may not apply legal terms or 
+    technological measures that legally restrict others from doing anything 
+    the license permits.
+
+================================================================================
+
+ATTRIBUTION REQUIREMENTS:
+
+When sharing or distributing this software or derivative works, you must:
+
+1. Credit the original author:
+   "Memories Creator by [Original Author Name]"
+
+2. Provide a link to the license:
+   https://creativecommons.org/licenses/by-nc/4.0/
+
+3. Indicate if changes were made:
+   "Modified version based on Memories Creator"
+
+4. Provide a link to the original source:
+   https://github.com/kubataba/memories-creator
+
+Example attribution:
+    This project uses Memories Creator (https://github.com/kubataba/memories-creator)
+    by [Author Name], licensed under CC-BY-NC-4.0
+    (https://creativecommons.org/licenses/by-nc/4.0/)
+
+================================================================================
+
+NON-COMMERCIAL USE DEFINITION:
+
+"NonCommercial" means not primarily intended for or directed towards 
+commercial advantage or monetary compensation.
+
+Examples of NON-COMMERCIAL use (ALLOWED):
+- Personal videos and family memories
+- Educational projects and teaching
+- Research and academic work
+- Non-profit organizations
+- Hobby projects
+- Sharing with friends and family
+- Open source contributions
+
+Examples of COMMERCIAL use (NOT ALLOWED):
+- Selling videos created with this software
+- Using in paid products or services
+- Marketing and advertising materials
+- Business presentations for profit
+- Commissioned video work
+- Monetized content (e.g., YouTube ads)
+- Any use that generates revenue
+
+================================================================================
+
+THIRD-PARTY COMPONENTS:
+
+This software includes the following third-party components:
+
+1. PyTorch (BSD-3-Clause License)
+   Copyright (c) Facebook, Inc. and its affiliates
+   https://github.com/pytorch/pytorch/blob/master/LICENSE
+
+2. OpenCV (Apache 2.0 License)
+   Copyright (c) OpenCV team
+   https://opencv.org/license/
+
+3. Transformers (Apache 2.0 License)
+   Copyright (c) Hugging Face, Inc.
+   https://github.com/huggingface/transformers/blob/main/LICENSE
+
+4. MusicGen Model (CC-BY-NC-4.0 License)
+   Copyright (c) Meta Platforms, Inc.
+   https://huggingface.co/facebook/musicgen-stereo-small
+
+5. txtai (Apache 2.0 License)
+   Copyright (c) NeuML
+   https://github.com/neuml/txtai/blob/master/LICENSE
+
+6. NumPy (BSD-3-Clause License)
+   Copyright (c) NumPy Developers
+   https://numpy.org/doc/stable/license.html
+
+7. Pillow (PIL License)
+   Copyright (c) Jeffrey A. Clark and contributors
+   https://github.com/python-pillow/Pillow/blob/main/LICENSE
+
+8. librosa (ISC License)
+   Copyright (c) Brian McFee
+   https://github.com/librosa/librosa/blob/main/LICENSE.md
+
+All third-party components retain their original licenses. This CC-BY-NC-4.0
+license applies to the original work created by the Memories Creator team.
+
+================================================================================
+
+DISCLAIMER:
+
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+================================================================================
+
+For the full legal code of this license, visit:
+https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
+For questions about this license, visit:
+https://github.com/kubataba/memories-creator/issues
+
+Last updated: 2026-02-09

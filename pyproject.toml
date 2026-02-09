@@ -1,0 +1,93 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "memories-creator"
+version = "1.0.0"
+description = "Professional video slideshow creation with Apple-style transitions and AI-generated music"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "CC-BY-NC-4.0"}
+authors = [
+    {name = "Memories Creator Team", email = "your.email@example.com"}
+]
+keywords = [
+    "video",
+    "slideshow", 
+    "photos",
+    "ai-music",
+    "musicgen",
+    "apple-silicon",
+    "memories",
+    "video-editing",
+    "photo-slideshow",
+    "transitions"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: End Users/Desktop",
+    "Topic :: Multimedia :: Video",
+    "Topic :: Multimedia :: Video :: Conversion",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: POSIX :: Linux",
+]
+
+dependencies = [
+    "torch>=2.0.0",
+    "torchvision>=0.15.0",
+    "numpy>=1.24.0",
+    "opencv-python>=4.8.0",
+    "Pillow>=10.0.0",
+    "tqdm>=4.65.0",
+    "soundfile>=0.12.1",
+    "librosa>=0.10.0",
+    "scipy>=1.11.0",
+    "txtai>=7.0.0",
+    "transformers>=4.35.0",
+    "resampy>=0.4.2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "black>=23.0.0",
+    "flake8>=6.0.0",
+    "mypy>=1.5.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/kubataba/memories-creator"
+Documentation = "https://github.com/kubataba/apple-memories-creator/docs"
+Repository = "https://github.com/kubataba/memories-creator"
+"Bug Tracker" = "https://github.com/kubataba/memories-creator/issues"
+
+[project.scripts]
+memories = "memories_creator.cli:main"
+
+[tool.black]
+line-length = 100
+target-version = ['py39']
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+line_length = 100
+
+[tool.mypy]
+python_version = "3.9"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]

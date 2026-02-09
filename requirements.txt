@@ -1,0 +1,21 @@
+# Core dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.24.0
+opencv-python>=4.8.0
+Pillow>=10.0.0
+tqdm>=4.65.0
+soundfile>=0.12.1
+librosa>=0.10.0
+scipy>=1.11.0
+txtai>=7.0.0
+transformers>=4.35.0
+resampy>=0.4.2
+
+# Note: For macOS users with Apple Silicon (M1/M2/M3/M4):
+# PyTorch with MPS support is automatically included in torch>=2.0.0
+# For optimal performance, ensure you have:
+# - macOS 12.3 or later
+# - Xcode Command Line Tools: xcode-select --install
+# - FFmpeg: brew install ffmpeg
+# AI Music Generation
