@@ -65,7 +65,7 @@ sudo apt install ffmpeg
 
 ---
 
-### 📁 Итоговая структура проекта для PyPI
+### 📁Project structure PyPI
 
 ```
 memories-creator/
@@ -83,8 +83,7 @@ memories-creator/
 ├── README.md                    
 ├── LICENSE                       
 ├── setup.py                     
-├── pyproject.toml 
-├── config.json             
+├── pyproject.toml             
 ├── requirements.txt               
 ├── MANIFEST.in                   
 └── .gitignore
